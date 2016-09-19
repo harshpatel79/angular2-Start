@@ -1,0 +1,14 @@
+<p>
+  Built.io’s award-winning content management system (CMS) unifies, simplifies, and accelerates content management. Built.io Contentstack empowers organizations to consolidate content management across channels via a single CMS and enables IT to enforce policies and establish best practices.
+</p>
+<div class="login-form">
+  <form>
+    <div class="login-inputs">
+      <input [(ngModel)]="user.email" name="email" placeholder="Email">
+    </div>
+    <div class="login-inputs">
+      <input [(ngModel)]="user.password" type="password" name="password" placeholder="Password">
+    </div>
+    <button type="submit" (click)="login();false">Login</button>
+  </form>
+</div>
